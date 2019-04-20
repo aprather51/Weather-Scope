@@ -8,7 +8,7 @@ import Weather from './components/Weather';
 //img
 import imgLogo from './img/weather_scope.png';
 
-const API_KEY = '9154e6abfb6d89c53d3b179ea19a1f86';
+const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 
 class App extends Component {
 	state = {
